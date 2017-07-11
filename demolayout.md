@@ -9,3 +9,7 @@
   - start the *RAW* SpringBoot Application
     - within Eclipse
     - command line
+  - multi-module project structure
+    - restaurant-service (root)
+      - app (springboot, config etc)
+      - domain (rest-endpoints, service-layer, DAO Layer)
