@@ -10,6 +10,6 @@
     - within Eclipse
     - command line
   - multi-module project structure
-    - restaurant-service (root)
+    - restaurant-service (root / shell project with no implementation)
       - app (springboot, config etc)
       - domain (rest-endpoints, service-layer, DAO Layer)
