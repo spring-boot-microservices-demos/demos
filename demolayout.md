@@ -15,10 +15,10 @@
       - domain (rest-endpoints, service-layer, DAO Layer)
 - **Demo 2**: Create Restaurant (/restaurant POST)
   - Create a RestaurantModel class with common/basic attributes
-    - name
-    - address
-    - owner
-    - cuisine
-    - openTime
-    - closeTime
+    - name - (String)
+    - address - (AddressModel)
+    - owner - (OwnerModel)
+    - cuisine - (List)
+    - openTime - (int)
+    - closeTime - (int)
   - Create a REST endpoint to POST a new Restaurant within the system
